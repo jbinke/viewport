@@ -76,14 +76,14 @@ table {
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 @media (prefers-color-scheme: dark){
-    
-}
+    .day.dark-scheme {background: var(--dark-gray); color: #fff;}
+
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
+}
 
 
 /* ----- HEADINGS ----- */
